@@ -1,4 +1,7 @@
---extra-index-url https://download.pytorch.org/whl/cpu
+# Ensure latest build tools
+pip>=25.2
+setuptools>=75.1.0
+wheel
 
 # Core Web Frameworks
 python-dotenv==1.0.1
@@ -14,8 +17,15 @@ numpy==1.26.4
 # Machine Learning & NLP
 scikit-learn==1.5.0
 transformers==4.42.0
-torch==2.5.1+cpu
 sentence-transformers==2.7.0
+tokenizers==0.19.1
+safetensors==0.4.3
+
+# Torch (CPU-only for Render)
+torch==2.3.0+cpu
+torchvision==0.18.0+cpu
+torchaudio==2.3.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 
 # Utilities
 regex==2024.5.15
