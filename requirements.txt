@@ -1,7 +1,7 @@
 # Ensure latest build tools
 pip>=25.2
 setuptools>=75.1.0
-wheel>=0.44.0
+
 
 # Core Web Frameworks
 python-dotenv==1.0.1
