@@ -16,16 +16,15 @@ numpy==1.26.4
 
 # Machine Learning & NLP
 scikit-learn==1.5.1
-transformers==4.42.0
+transformers==4.44.2
 sentence-transformers==2.7.0
-# tokenizers==0.20.0 --only-binary=tokenizers
-
-safetensors==0.4.3
+tokenizers==0.20.0
+safetensors==0.4.5   # ✅ prebuilt wheels available, no Rust build
 
 # Torch (CPU-only for Render)
-torch==2.3.0
-torchvision==0.18.0
-torchaudio==2.3.0
+torch==2.3.0+cpu
+torchvision==0.18.0+cpu
+torchaudio==2.3.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 # Utilities
