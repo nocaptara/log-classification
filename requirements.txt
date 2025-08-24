@@ -8,6 +8,6 @@ sentence-transformers==3.3.1
 scikit-learn==1.6.0
 joblib==1.3.2
 
-# Data (prebuilt wheels compatible with Python 3.10.x)
-pandas==2.1.4
-numpy==1.26.4
+# Data (stable prebuilt wheels for Python 3.10.x on Render)
+numpy==1.24.4
+pandas==2.0.3
